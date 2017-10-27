@@ -20,7 +20,7 @@ module.exports = {
 				loader:"babel-loader",
 				exclude:/node_modules/,            //不包含
 				query:{
-					presets:["es2015"]
+					presets:["es2015"]              //执行编译es6
 				}
 			}
 		]
